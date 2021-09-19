@@ -1,8 +1,8 @@
 <?php
 //http://www.webhostingtalk.com/showthread.php?t=218863
 $start_dir = '/'; // Starting directory no trailing slashes.
-$perms['file'] = 0664; // chmod value for files don't enclose value in quotes.
-$perms['folder'] = 0775; // chmod value for folders don't enclose value in quotes.
+$perms['file'] = 0644; // chmod value for files don't enclose value in quotes.
+$perms['folder'] = 0755; // chmod value for folders don't enclose value in quotes.
 
 function chmod_file_folder($dir) {
     global $perms;
